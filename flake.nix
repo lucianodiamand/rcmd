@@ -11,8 +11,8 @@
         rustPlatform = pkgs.rustPlatform;
       in {
         packages.default = rustPlatform.buildRustPackage {
-          pname = "r";
-          version = "0.1.5";
+          pname = "rcmd";
+          version = "0.1.6";
           src = ./.;
 
           cargoLock = {
