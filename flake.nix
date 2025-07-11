@@ -12,7 +12,7 @@
       in {
         packages.default = rustPlatform.buildRustPackage {
           pname = "r";
-          version = "0.1.3";
+          version = "0.1.4";
           src = ./.;
 
           cargoLock = {
